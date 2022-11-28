@@ -9,14 +9,15 @@
     "chalk": "^5.1.2",
     "chalk-animation": "^2.0.3",
     "gradient-string": "^2.0.2",
-    "inquirer": "^9.1.4"
+    "inquirer": "^9.1.4",
+    "irfang_calc": "^1.0.1"
   },
-  "name": "irfang_cal",
-  "version": "1.0.0",
+  "name": "irfang_calc",
+  "version": "1.0.1",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "calcu": "./bin/index.js"
+    "calc": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

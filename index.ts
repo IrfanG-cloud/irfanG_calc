@@ -10,7 +10,7 @@ const rainbowTime = () => {
   });
 };
 async function welcome() {
-  let rainbowTitle = chalkAnimation.rainbow("Let start clculation");
+  let rainbowTitle = chalkAnimation.rainbow("Let start calculation");
   await rainbowTime();
   rainbowTitle.stop();
   console.log(`_____________________
